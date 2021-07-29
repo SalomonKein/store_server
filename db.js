@@ -6,7 +6,6 @@ process.env.DB_USER,
 process.env.DB_PASSWORD,
 {
     dialect: 'postgres',
-    ssl=true,
     dialectOptions: {
         "ssl": {"require":true }
       }, 
