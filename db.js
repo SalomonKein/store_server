@@ -6,11 +6,9 @@ process.env.DB_USER,
 process.env.DB_PASSWORD,
 {
     dialect: 'postgres',
-    dialectOptions: {
-        ssl: true
-      },
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
+    ssl=true
     
 }
 );
